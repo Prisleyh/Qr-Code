@@ -1,0 +1,73 @@
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-gray: hsl(212, 45%, 89%);
+    --color-grayish-blue: hsl(220, 15%, 55%);
+    --color-dark-blue: hsl(218, 44%, 22%);
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: var(--color-light-gray);
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+  }
+  
+  /* MAIN */
+  .cartao {
+    align-items: center;
+    background-color: var(--color-white);
+    border-radius: 1rem;
+    box-shadow: 0 1px 20px hsla(219, 15%, 55%, 0.15);
+    display: flex;
+    gap: 1.25rem;
+    flex-direction: column;
+    padding: 1rem 1rem 2.5rem 1rem;
+    text-align: center;
+    max-width: 20rem;
+  }
+  
+  .imgCard {
+    border-radius: 0.687rem;
+    margin-bottom: 0.625rem;
+    width: 100%;
+  }
+  
+  .tituloCard {
+    color: var(--color-dark-blue);
+    font-size: 1.375rem;
+  }
+  
+  .Descricao-card {
+    color: var(--color-grayish-blue);
+    padding-inline: 0.75rem;
+  }
+  
+  /* FOOTER */
+  .atribuicao-r {
+    bottom: 0.625rem;
+    color: var(--color-grayish-blue);
+    font-size: 10px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+  }
+  
+  .atribuicao-r a {
+    color: var(--color-grayish-blue);
+    text-decoration: none;
+  }
+  
+  .atribuicao-r a:hover {
+    color: var(--color-dark-blue);
+    text-decoration: underline;
+  }
+  
